@@ -13,11 +13,11 @@ int main()
     float raio=0;
     cout<<"Digite o raio da esfera(em centimetros):";
     cin>>raio;
-     cout<<"O volume da esfera é:"<<volume(raio)<<"cm"<<endl;
+     cout<<"O volume da esfera Ã©:"<<volume(raio)<<"cm"<<endl;
 }
 float volume (float rai)
 {
    float val=0;
-   val=(rai*rai*rai*4*3)/3;
+   val=(rai*rai*rai*4)/3;
    return val;
 }
