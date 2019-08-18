@@ -1,0 +1,87 @@
+/**********************************************************
+- Autor:     Silas Barboza Rohde
+- Descrição: Exercício 6 - Cap. 05
+**********************************************************/
+#include <iostream>
+#include <locale.h>
+#include <cstdlib>
+using namespace std;
+
+// Variáveis:
+char cTrans;
+int iRepeat = 0;
+int iCod = 0;
+float fValv = 0;
+float fValvt = 0;
+float fValp = 0;
+float fValpt = 0;
+float fVpret = 0;
+float fVprett = 0;
+
+
+int main()
+{
+    //Cor d fonte;
+    setlocale(LC_ALL,"");
+    system("color F1");
+
+    // Código:
+
+    while (iRepeat < 15)
+    {
+        cout << "Tipo de transação: ";
+        cin >> cTrans;
+
+        if (cTrans == 'V' || cTrans == 'v')
+        {
+            cout << "Código do produto: ";
+            cin >> iCod;
+            cout << "Valor da transação: ";
+            cin >> fValv;
+
+            if (fValv < 0)
+            {
+                cout << "Valor errado!" << endl;
+            }
+            else
+            {
+                fValvt = fValvt + fValv;
+            }
+        }
+        else if (cTrans == 'P' || cTrans == 'p')
+        {
+            cout << "Código do produto: ";
+            cin >> iCod;
+            cout << "Valor da transação: ";
+            cin >> fValp;
+
+            if (fValp < 0)
+            {
+                cout << "Valor errado!" << endl;
+            }
+            else
+            {
+                fVpret = fValp/3;
+
+                cout << "Valor das prestações: R$" << fVpret << endl;
+
+                fValpt = fValpt + fValp;
+                fVprett = fVprett + fVpret;
+            }
+        }
+        else
+        {
+            cout << "Código de transação erronea" << endl;
+        }
+
+        iRepeat++;
+    }
+
+    cout << "Valor total de transações feitas a vista foi de: R$" << fValvt << endl;
+    cout << "Valor total de transações feitas a prazo foi de: R$" << fValpt << endl;
+    cout << "Valor total das transações realizadas: R$" << fValpt+fValvt << endl;
+    cout << "Valor total de todas as primeiras parcelas: R$" << fVprett << endl;
+
+
+    return 0;
+}
