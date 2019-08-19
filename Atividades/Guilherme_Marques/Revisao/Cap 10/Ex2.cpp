@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Guilherme Marques
-- Descrição: Repetição de frase
+- Descrição: Coletar Dados de Pessoas
 **********************************************************/
 #include <iostream>
 #include <locale.h>
