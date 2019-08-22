@@ -34,7 +34,7 @@ public:
     }
     int setvalnum()
     {
-        cout<<"Digite quantos produtos serão adicionados: ";
+        cout<<"Digite quantos produtos serÃ£o adicionados: ";
         cin>>valnum;
         if(valnum<=0 ||valnum>5)
         {
