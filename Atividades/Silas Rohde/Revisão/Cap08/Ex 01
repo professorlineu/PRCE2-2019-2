@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Silas Barboza Rohde
-- Descrição: Exercício 1 Cap08
+- Descrição: Lista de Revisão - Cap08 ex 01
 **********************************************************/
 #include <iostream>
 #include <locale.h>
