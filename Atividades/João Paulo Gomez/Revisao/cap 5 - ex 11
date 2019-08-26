@@ -1,0 +1,90 @@
+/**********************************************************
+- Autor:     João Paulo dos Santos Gomez
+- Descrição: Revisão- cap. 5 - ex 11
+**********************************************************/
+#include <iostream>
+#include <locale.h>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+    //Declaração de variáveis
+    double dValor=0;
+    int iParcelas=0;
+    double dVfinal=0;
+
+
+    //Configuração da tela de saída
+    setlocale(LC_ALL,"");
+    system("color F1");
+
+    //Código do programa
+    cout<<"Digite o valor do carro: ";
+    cin>> dValor;
+
+    cout<<"Lembrando que é possível parcelar em 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, informe quantas vezes quer parcelar: ";
+    cin>> iParcelas;
+
+    if (iParcelas==6)
+    {
+     dVfinal=dValor*1.03;
+     cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==12)
+    {
+      dVfinal=dValor*1.06;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==18)
+    {
+      dVfinal=dValor*1.09;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==24)
+    {
+      dVfinal=dValor*1.12;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==30)
+    {
+      dVfinal=dValor*1.15;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==36)
+    {
+      dVfinal=dValor*1.18;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==42)
+    {
+      dVfinal=dValor*1.21;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==48)
+    {
+      dVfinal=dValor*1.24;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==54)
+    {
+      dVfinal=dValor*1.27;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    else if(iParcelas==60)
+    {
+      dVfinal=dValor*1.30;
+      cout<<"O preço do carro será: "<<dVfinal<<endl;
+    }
+    
+    cout<<"Parcelas feitas: "<<iParcelas<<endl;
+    
+
+
+    
+
+
+
+    return 0;
+}
