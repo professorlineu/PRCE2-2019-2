@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Rodrigo Braz de Azevedo
-- DescriÁ„o:
+- Descri√ß√£o:
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -10,15 +10,15 @@ using namespace std;
 
 int main()
 {
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
     int iNumero = 1;
     int iTabuada = 0;
 
-    //ConfiguraÁ„o da tela de saÌda
+    //Configura√ß√£o da tela de sa√≠da
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
+    //C√≥digo do programa
     while (iNumero <= 10)
     {
         cout << iNumero << " * " << iTabuada << " = " << iNumero * iTabuada << endl;
@@ -27,6 +27,7 @@ int main()
         {
             iNumero++;
             iTabuada = 0;
+            cout << endl;
         }
     }
 
