@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     João Paulo dos Santos Gomez
-- Descrição: Lista 2 
+- Descrição: Breve descrição do programa
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -26,12 +26,10 @@ public:
     {
         cout<<"Digite a quantidade de produtos: ";
         cin>>quantidade;
-    if(quantidade<=0)
-    {
-        cout<<"Quantidade inválida."<<endl;
-    }
+    
     while(quantidade<=0)
     {
+      cout<<"Quantidade inválida, digite novamente!"<<endl;
         cout<<"Digite a quantidade do produto: ";
         cin>>quantidade;
     }
