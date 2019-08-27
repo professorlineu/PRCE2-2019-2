@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Fabio Augusto Nikaido
-- Descrição: Exercícios 4 a 9
+- DescriÃ§Ã£o: ExercÃ­cios 4 a 9
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -31,7 +31,7 @@ public:
         {
             while(quantidade[iCont] <= 0)
             {
-                cout << "Quantidade Inválida" << endl;
+                cout << "Quantidade InvÃ¡lida" << endl;
                 cout << "Digite a quantidade do produto: ";
                 cin >> quantidade[iCont];
             }
@@ -45,9 +45,9 @@ public:
 
         if(valor[iCont] < 0)
         {
-            while(valor[iCont] <= 0)
+            while(valor[iCont] < 0)
             {
-                cout << "Valor Inválido" << endl;
+                cout << "Valor InvÃ¡lido" << endl;
                 cout << "Digite o valor do produto: ";
                 cin >> valor[iCont];
             }
@@ -89,7 +89,7 @@ int main()
     system("color F1");
 
 
-    for(i;i<=5;i++)
+    for(i;i<5;i++)
     {
     e1.setNome();
 
@@ -101,9 +101,6 @@ int main()
 
     cout << endl;
 
-
-
-
-
     return 0;
 }
+
