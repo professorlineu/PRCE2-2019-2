@@ -1,0 +1,86 @@
+/**********************************************************
+- Autor:     João Paulo dos Santos Gomez
+- Descrição: Lista 2 
+**********************************************************/
+#include <iostream>
+#include <locale.h>
+#include <cstdlib>
+
+using namespace std;
+class Estoque
+{
+
+private:
+    string nome;
+    int quantidade;
+    float valor;
+
+public:
+    void setnome()
+    {
+        cout<<"Digite o nome do produto: ";
+        cin>>nome;
+    }
+
+    void setquantidade()
+    {
+        cout<<"Digite a quantidade de produtos: ";
+        cin>>quantidade;
+    if(quantidade<=0)
+    {
+        cout<<"Quantidade inválida."<<endl;
+    }
+    while(quantidade<=0)
+    {
+        cout<<"Digite a quantidade do produto: ";
+        cin>>quantidade;
+    }
+    }
+
+    void setvalor()
+    {
+        cout<<"Digite o valor do produto: ";
+        cin>>valor;
+    if(valor<0)
+    {
+        cout<<"Valor inválido."<<endl;
+    }
+
+    while(valor<0)
+    {
+        cout<<"Digite o valor do produto: ";
+        cin>>valor;
+    }
+    }
+
+    void exibirdados()
+    {
+        cout<<"O nome do produto é: "<<nome<<endl;
+        cout<<"A quantidade de produto(s): "<<quantidade<<endl;
+        cout<<"O valor do produto é : "<<valor<<" real(ais)"<<endl;
+    }
+
+};
+int main()
+{
+    //Declaração de variáveis
+
+
+
+
+
+    //Configuração da tela de saída
+    setlocale(LC_ALL,"");
+    system("color F1");
+
+    //Código do programa
+    Estoque p1;
+
+    p1.setnome();
+    p1.setquantidade();
+    p1.setvalor();
+    p1.exibirdados();
+
+
+    return 0;
+}
