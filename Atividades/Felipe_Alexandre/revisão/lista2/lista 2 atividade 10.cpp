@@ -7,7 +7,7 @@ class Produto
 public:
     void setcomeco()
     {
-        printf("Interface de controle para registro de produtos\nDigite as informações pedidas abaixo:\n");
+        printf("Interface de registro para o calculo do valor de produtos.\nDigite as informações pedidas abaixo:\n");
 
     }
     void setfPreco()
