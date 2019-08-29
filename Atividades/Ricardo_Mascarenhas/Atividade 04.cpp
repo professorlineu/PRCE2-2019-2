@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Ricardo Mascarenhas
-- Descrição: Atividade 04
+- DescriÃ§Ã£o: Atividade 04
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -30,7 +30,7 @@ public:
 
             if (Quantidade <= 0)
             {
-                cout << "Valor inválido!" << endl;
+                cout << "Valor invÃ¡lido!" << endl;
             }
         }
         while (Quantidade <= 0);
@@ -45,7 +45,7 @@ public:
 
             if (Valor <= 0)
             {
-                cout << "Valor inválido!" << endl;
+                cout << "Valor invÃ¡lido!" << endl;
             }
         }
         while (Valor <= 0);
@@ -120,7 +120,7 @@ int main()
     {
         cout << "Informe o nome do produto: " ;
         //getline(cin,sNome);
-        //getline não está funcionando :(
+        //getline nÃ£o estÃ¡ funcionando :(
         cin >> sNome ;
         E1[i].setNome(sNome);
 
@@ -138,7 +138,7 @@ int main()
 
         cout << endl;
 
-        cout << "Informe o código do produto: " ;
+        cout << "Informe o cÃ³digo do produto: " ;
         cin >> iCodigo ;
         E1[i].setCodigo(iCodigo);
 
@@ -152,9 +152,9 @@ int main()
     }
 //************************************************************
 
-    cout << "\n INFORMAÇÕES DO ESTOQUE: " << endl ;
+    cout << "\n INFORMAÃ‡Ã•ES DO ESTOQUE: " << endl ;
 
-    for (int i = 0; i<5; i)
+    for (int i = 0; i<5; i++)
     {
         cout << "Nome do Produto: " << E1[i].getNome() << endl;
 
@@ -168,7 +168,7 @@ int main()
 
         cout << endl;
 
-        cout << "Código do Produto: " << E1[i].getCodigo() << endl;
+        cout << "CÃ³digo do Produto: " << E1[i].getCodigo() << endl;
 
         cout << endl;
 
