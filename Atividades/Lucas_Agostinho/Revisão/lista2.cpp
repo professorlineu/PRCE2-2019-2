@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Lucas Agostinho de Sousa
-- Descrição: Média de nota e sistema de aprovação
+- DescriÃ§Ã£o: MÃ©dia de nota e sistema de aprovaÃ§Ã£o
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -12,66 +12,93 @@ using namespace std;
 class Estoque
 {
 public:
-    void setNome(string n)
+    void setNome()
     {
-        Nome = n;
+        cout << "\nInsira o nome do produto: ";
+        getline(cin, Nome);
     }
 
-    void setQuantidade(int q)
+    void setQuantidade()
     {
-        Quantidade = q;
+        do
+        {
+            cout << "Insira a quantidade do produto: ";
+            cin >> Quantidade;
+
+            if (Quantidade <= 0)
+            {
+                cout << "\nValor InvÃ¡lido!";
+            }
+        }
+        while (Quantidade <= 0);
     }
 
-    void setValor(float v)
+    void setValor()
     {
-        Valor = v;
+        do
+        {
+            cout << "Insira o valor do produto: R$";
+            cin >> Valor;
+
+            if (Valor <= 0)
+            {
+                cout << "\nValor InvÃ¡lido!";
+            }
+        }
+        while (Valor <= 0);
     }
 
-    string getNome()
+    void getNome()
     {
-        return Nome;
+        cout << "\nNome do produto: " << Nome << endl;
     }
 
-    int getQuantidade()
+    void getQuantidade()
     {
-        return Quantidade;
+        cout << "Quantidade: " << Quantidade << endl;
     }
 
-    float getValor()
+    void getValor()
     {
-        return Valor;
+        cout << "Valor: " << Valor << endl;
     }
 
 private:
     string Nome;
     int Quantidade;
     float Valor;
-
 };
 
 int main()
 {
-    ///Declaração de variáveis
-    Estoque prod;
+    ///DeclaraÃ§Ã£o de variÃ¡veis
+    Estoque prod[2];
+    int i = 0;
 
-    string sNome;
-    int iQtd = 0;
-    float fValor = 0;
-
-    ///Configuração da tela de saída
+    ///ConfiguraÃ§Ã£o da tela de saÃ­da
     setlocale(LC_ALL,"");
     system("color F1");
 
-    ///Código do programa
-    cout << "Insira o nome do produto: ";
-    getline(cin, sNome);
+    ///CÃ³digo do programa
+    for (i = 0; i < 2; i++)
+    {
+        if (i != 0)
+        {
+            cin.ignore();
+        }
 
-    prod.setNome(sNome);
+        prod[i].setNome();
+        prod[i].setQuantidade();
+        prod[i].setValor();
+    }
 
-    cout << "\nINFORMAÇÕES DO ESTOQUE";
-    cout << "\n\nNome do produto: " << prod.getNome() << endl;
-
+    cout << "\nINFORMAÃ‡Ã•ES DO ESTOQUE";
+    for (i = 0; i < 2; i++)
+    {
+        prod[i].getNome();
+        prod[i].getQuantidade();
+        prod[i].getValor();
+    }
 
     return 0;
 }
-
