@@ -70,7 +70,7 @@ public:
 
     {
 
-        cout<<"Digite quantos produtos serão adicionados: ";
+        cout<<"Digite quantos produtos serão adicionados(quantidade máxima de 5 produtos): ";
 
         cin>>valnum;
 
