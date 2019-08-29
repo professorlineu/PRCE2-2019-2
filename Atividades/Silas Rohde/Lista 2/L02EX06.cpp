@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Silas Barboza Rohde
-- Descrição: Lista 2 - Exercício 5
+- DescriÃ§Ã£o: Lista 2 - ExercÃ­cio 6
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -24,15 +24,15 @@ public:
     {
         Valor = v;
     }
-     string getsNome()
+     string exibirDadossNome()
     {
         return sNome;
     }
-    int getiQuant()
+    int exibirDadosiQuant()
     {
         return iQuant;
     }
-    double dValor()
+    double exibirDadosdValor()
     {
         return dValor;
     }
