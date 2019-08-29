@@ -5,15 +5,31 @@ using namespace std;
 class Produto
 {
 public:
+    void setcomeco()
+    {
+        printf("Interface de controle para registro de produtos\nDigite as informa√ß√µes pedidas abaixo:\n");
+
+    }
     void setfPreco()
     {
+        do
+        {
         cout<<"Digite o valor do produto: R$";
         scanf("%f",&fPreco);
+        }
+        while(fPreco<0);
+
+
     }
     void setfPeso()
     {
-        cout<<"Digite o peso do produto( em quilo gramas): ";
+        do
+        {
+          cout<<"Digite o peso do produto( em quilo gramas): ";
         scanf("%f",&fPeso);
+        }
+        while(fPeso<0);
+
 
 
     }
@@ -25,10 +41,10 @@ public:
     }
     void exibirDados()
     {
-        cout<<"Dados do produto:\n";
+        cout<<"\nDados do produto:\n";
         cout<<"Peso: "<<fPeso<<endl;
-        cout<<"PreÁo: R$"<<fPreco<<endl;
-        cout<<"Valor do produto(proÁoxpeso): "<<fResult<<endl;
+        cout<<"Pre√ßo: R$"<<fPreco<<endl;
+        cout<<"Valor do produto(pro√ßoxpeso): "<<fResult<<endl;
     }
 private:
     float fPeso;
@@ -39,6 +55,7 @@ int main()
 {
     setlocale(LC_ALL,"");
     Produto p1;
+    p1.setcomeco();
     p1.setfPreco();
     p1.setfPeso();
     p1.operacao();
@@ -46,7 +63,7 @@ int main()
     return 0;
 
 }
- /**observaÁ„o*****************************************
- utlizando o scanf o programa aceita colocar virgua ao envÈs de ponto nas variaveis,
- com cin ele aceita ponto ao envÈz de virgula.
+ /**observa√ß√£o*****************************************
+ utlizando o scanf o programa aceita colocar virgua ao env√©s de ponto nas variaveis,
+ com cin ele aceita ponto ao env√©z de virgula.
  ******************************************************/
