@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Silas Barboza Rohde
-- Descrição: Lista 2 - Exercício 7
+- DescriÃ§Ã£o: Lista 2 - ExercÃ­cio 8
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -72,7 +72,7 @@ int main()
     else
     {
         cout << "\nProduto:" << sNome << endl;
-        cout << "Preço: " << iQuant * dValor << endl;
+        cout << "PreÃ§o: " << iQuant * dValor << endl;
     }
 
 
