@@ -8,12 +8,12 @@ class Horario
         Horario();
         ~Horario();
 
-        // métodos setters
+        // mÃ©todos setters
         void setHora(int);
         void setHora(int, int);
         void setHora(int, int, int);
 
-        // métodos getters
+        // mÃ©todos getters
         int getHora();
         int getMinuto();
         int getSegundo();
@@ -27,3 +27,4 @@ class Horario
 };
 
 #endif // HORARIO_H
+
