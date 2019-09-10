@@ -1,4 +1,10 @@
+#include <iostream>
+#include <string>
+#include <locale.h>
+#include <cstdlib>
 #include "Horario.h"
+
+using namespace std;
 
 Horario::Horario()
 {
@@ -36,5 +42,5 @@ int Horario::getSegundo()
 
 void Horario::getHoraCompleta()
 {
-
+    cout << Hora << ":" << Minuto << ":" << Segundo;
 }
