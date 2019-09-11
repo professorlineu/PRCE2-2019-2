@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1567643036 source:d:\iifsp\programação 2\lista 02\lista 03\hora\main.cpp
+	<iostream>
+	"HORARIO.H"
+	<iomanip>
+
+1567641910 d:\iifsp\programação 2\lista 02\lista 03\hora\include\horario.h
+
+1567641994 source:d:\iifsp\programação 2\lista 02\lista 03\hora\src\horario.cpp
+	"Horario.h"
+
+1567643036 source:e:\iifsp\programação 2\lista 02\lista 03\hora\main.cpp
+	<iostream>
+	"HORARIO.H"
+	<iomanip>
+
+1567643522 e:\iifsp\programação 2\lista 02\lista 03\hora\include\horario.h
+	<iomanip>
+
+1567643522 source:e:\iifsp\programação 2\lista 02\lista 03\hora\src\horario.cpp
+	"Horario.h"
+	<iomanip>
+	<string>
+	<string.h>
+	<iostream>
+	<locale.h>
+	<cstdlib>
+	<stdio.h>
+
