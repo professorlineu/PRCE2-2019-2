@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Silas Barboza Rohde
-- Descrição: Lista 2 - Exercício 9
+- DescriÃ§Ã£o: Lista 2 - ExercÃ­cio 9
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -47,35 +47,53 @@ private:
 
 int main()
 {
-    Estoque p1 [3];
+    Estoque p1[5];
 
-    string sNome [5];
-    int iQuant [5];
-    double dValor [5];
+    string sNome;
+    int iQuant;
+    double dValor;
 
     setlocale(LC_ALL,"");
     system("color F1");
 
-    for (int i = 0; i <= 5; i++)
+    for (int i = 0; i < 5; i++)
     {
         cout << "\nInforme o nome do produto:";
-        cin >> sNome [i++];
+        cin >> sNome;
+        p1[i].setNome(sNome);
 
-        cout << "\nInforme o valor do produto:";
-        cin >> dValor [i++];
-
-        cout << "\nInforme a quantidade:";
-        cin >> iQuant [i++];
-
-        if (dValor < 0 || iQuant <= 0)
+        do
         {
-            cout << "\nValores incorretos!" << endl;
+            cout << "\nInforme o valor do produto:";
+            cin >> dValor;
+
+            if (dValor < 0)
+            {
+                cout << "\nValor incorreto!" << endl;
+            }
         }
-        else
+        while (dValor < 0);
+
+        p1[i].setValor(dValor);
+
+        do
         {
-            cout << "\nProduto:" << sNome << endl;
-            cout << "Preço: " << iQuant [i++] * dValor [i++] << endl;
+            cout << "\nInforme a quantidade:";
+            cin >> iQuant;
+
+            if (iQuant <= 0)
+            {
+                cout << "\nValor incorreto!" << endl;
+            }
         }
+        while (iQuant <= 0);
+
+        p1[i].setQuant(iQuant);
+
+
+        cout << "\nProduto:" << sNome << endl;
+        cout << "PreÃ§o: " << iQuant * dValor << endl;
+
 
     }
 
