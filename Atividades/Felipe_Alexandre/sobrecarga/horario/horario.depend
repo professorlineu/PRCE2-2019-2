@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568127829 source:f:\users\cliente\desktop\objeto\horas\horario\main.cpp
+	<iostream>
+	<stdio.h>
+	"Horario.h"
+	<iomanip>
+
+1567794775 f:\users\cliente\desktop\objeto\horas\horario\horario.h
+
+1568127920 source:f:\users\cliente\desktop\objeto\horas\horario\horario.cpp
+	<iostream>
+	<stdio.h>
+	"Horario.h"
+

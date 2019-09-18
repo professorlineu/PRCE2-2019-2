@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1568245535 source:c:\users\renan\downloads\programação\c++\2 semestre\relógio\main.cpp
+	<iostream>
+	"Horario.h"
+
+1568243286 c:\users\renan\downloads\programação\c++\2 semestre\relógio\include\horario.h
+
+1568246059 source:c:\users\renan\downloads\programação\c++\2 semestre\relógio\src\horario.cpp
+	"Horario.h"
+	<iostream>
+	<iomanip>
+
