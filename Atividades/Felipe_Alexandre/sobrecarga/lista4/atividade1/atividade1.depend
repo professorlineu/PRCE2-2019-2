@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1568739302 source:f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\atividade1\main.cpp
+	<iostream>
+	"IDclient.h"
+	<stdio.h>
+	<string.h>
+
+1568739274 source:f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\atividade1\src\idclient.cpp
+	"IDclient.h"
+	<string.h>
+	<iostream>
+
+1568739274 f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\atividade1\include\idclient.h
+	<string.h>
+	<iostream>
+	<stdio.h>
+
