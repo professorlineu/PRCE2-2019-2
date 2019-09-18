@@ -30,10 +30,10 @@ void ProFilmes::setAnolf(int c)
 }
 void ProFilmes::setYear( int y)
 {
-time_t now=time(0);
-tm*ltm=localtime(&now);
-y=1900+ltm->tm_year;
-Year=y;
+    time_t now=time(0);
+    tm*ltm=localtime(&now);
+    y=1900+ltm->tm_year;
+    Year=y;
 }
 //getter
 int ProFilmes::getIDf()
