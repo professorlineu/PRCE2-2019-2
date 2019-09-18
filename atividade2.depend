@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1568818469 source:f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\atividade2\atividade2\main.cpp
+	<iostream>
+	"ProFilmes.h"
+	<string.h>
+	<time.h>
+
+1568818534 source:f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\atividade2\atividade2\src\profilmes.cpp
+	"ProFilmes.h"
+	<string.h>
+	<iostream>
+	<time.h>
+
+1568818534 f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\atividade2\atividade2\include\profilmes.h
+	<string.h>
+	<iostream>
+	<stdio.h>
+
+1568817860 source:f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\time.cpp
+	<iostream>
+	<time.h>
+	<stdio.h>
+
+1568818001 source:f:\users\cliente\desktop\programas do 2ºsemestre\lista 4\year.cpp
+	<iostream>
+	<time.h>
+	<stdio.h>
+
