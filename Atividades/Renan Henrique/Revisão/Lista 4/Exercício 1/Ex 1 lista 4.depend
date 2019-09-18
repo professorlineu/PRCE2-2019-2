@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1568251780 source:c:\users\renan\downloads\programação\c++\2 semestre\ex 1 lista 4\main.cpp
+	<iostream>
+	"Cliente.h"
+
+1568853606 source:c:\users\renan\downloads\programação\c++\2 semestre\ex 1 lista 4\src\cliente.cpp
+	"Cliente.h"
+
+1568250973 c:\users\renan\downloads\programação\c++\2 semestre\ex 1 lista 4\include\cliente.h
+	<iostream>
+
