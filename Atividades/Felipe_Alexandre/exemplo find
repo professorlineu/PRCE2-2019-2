@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    string st="tentando achar um sentido @ na procura";
+    string st2="@";
+    size_t found=st.find(st2);
+    if(found!=string::npos)
+    {
+      cout<<found;
+    }
+
+}
