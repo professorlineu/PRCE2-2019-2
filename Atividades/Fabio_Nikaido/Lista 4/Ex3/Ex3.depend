@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1568951283 source:c:\users\fabio\desktop\programação\2° semestre\ex3\main.cpp
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+	"ContaBancaria.h"
+
+1568952187 source:c:\users\fabio\desktop\programação\2° semestre\ex3\src\contabancaria.cpp
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+	"ContaBancaria.h"
+
+1568952035 c:\users\fabio\desktop\programação\2° semestre\ex3\include\contabancaria.h
+
