@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1568912331 source:c:\users\fabio\desktop\programação\2° semestre\ex2\ex2\main.cpp
+	"Filmes.h"
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+
+1568912378 source:c:\users\fabio\desktop\programação\2° semestre\ex2\ex2\src\filmes.cpp
+	"Filmes.h"
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+
+1568909877 c:\users\fabio\desktop\programação\2° semestre\ex2\ex2\include\filmes.h
+	<iostream>
+	<locale.h>
+	<cstdlib>
+	<string>
+
