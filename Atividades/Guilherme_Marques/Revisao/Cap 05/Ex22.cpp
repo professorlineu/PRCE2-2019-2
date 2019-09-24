@@ -17,7 +17,7 @@ int main() {
   
   while (iIdade > 0)
   {
-    cout << "\nQual a sua Idade e sua Altura (Para encerrar, digite 0 na Idade): ";
+    cout << "\nQual a sua Idade e sua Altura respectivamente (Para encerrar, digite 0 na Idade): ";
     cin >> iIdade >> fAltura;
 
     if (iIdade >= 50)
