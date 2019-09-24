@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1569295172 source:c:\users\fbc15\desktop\ifsp\2º semestre\programação ii\timer\src\tempo.cpp
+	"Tempo.h"
+
+1569295172 c:\users\fbc15\desktop\ifsp\2º semestre\programação ii\timer\include\tempo.h
+
+1569295540 source:c:\users\fbc15\desktop\ifsp\2º semestre\programação ii\timer\main.cpp
+	<iostream>
+	"Tempo.h"
+
