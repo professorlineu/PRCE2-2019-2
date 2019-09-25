@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1569450672 source:c:\users\renan\downloads\programação\c++\2 semestre\ex 2 lista 4\main.cpp
+	<iostream>
+	"Filmes.h"
+
+1569450205 source:c:\users\renan\downloads\programação\c++\2 semestre\ex 2 lista 4\src\filmes.cpp
+	"Filmes.h"
+
+1569450161 c:\users\renan\downloads\programação\c++\2 semestre\ex 2 lista 4\include\filmes.h
+	<iostream>
+	<string>
+
