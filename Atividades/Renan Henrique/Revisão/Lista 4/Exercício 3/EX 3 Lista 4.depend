@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1569452970 source:c:\users\renan\downloads\programação\c++\2 semestre\ex 3 lista 4\main.cpp
+	<iostream>
+	"ContaBancaria.h"
+
+1569453845 c:\users\renan\downloads\programação\c++\2 semestre\ex 3 lista 4\include\contabancaria.h
+	<iostream>
+
+1569453845 source:c:\users\renan\downloads\programação\c++\2 semestre\ex 3 lista 4\src\contabancaria.cpp
+	"ContaBancaria.h"
+
