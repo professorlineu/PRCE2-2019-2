@@ -1,0 +1,86 @@
+/**********************************************************
+- Autor:     Layane Quissak
+- Descrição: Estoque
+**********************************************************/
+#include <iostream>
+#include <locale.h>
+#include <cstdlib>
+#include <string>
+using namespace std;
+
+
+class Estoque
+{
+public:
+    void setNome(string n)
+    {
+        Nome = n;
+    }
+
+    void setQtd(float q)
+    {
+        Qtd = q;
+    }
+    void setValor(float v)
+    {
+        Valor = v;
+    }
+
+    string getNome()
+    {
+        return Nome;
+    }
+    double getQtd ()
+    {
+        return Qtd;
+    }
+    double getValor()
+    {
+        return Valor;
+    }
+
+
+private:
+    string Nome;
+    double Qtd;
+    double Valor;
+};
+
+
+int main()
+{
+    Estoque e1;
+
+    string sNome;
+    double dQtd = 0;
+    double dValor = 0;
+    setlocale(LC_ALL,"");
+    system("color F1");
+
+    cout << "Informe o nome do produto: ";
+    getline (cin, sNome);
+    e1.setNome(sNome);
+    do
+    {
+        cout << "Informe a quantidade: ";
+        cin >> dQtd;
+        e1.setQtd(dQtd);
+    }
+    while (dQtd <= 0);
+    do
+    {
+        cout << "Informe o valor: ";
+        cin >> dValor;
+        e1.setValor(dValor);
+    }
+while (dValor < 0);
+
+        cout << "\n\n\nDados do estoque:" << endl;
+
+        cout << "Nome: " << e1.getNome() << endl;
+        cout << "Quantidade: " << e1.getQtd() << endl;
+        cout << "Valor: " << e1.getValor() << endl;
+
+
+        return 0;
+    }
