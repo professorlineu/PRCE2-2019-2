@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1569616639 source:c:\users\aluno\desktop\lista 4\filme\src\filme.cpp
+	"filme.h"
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+
+1569616673 c:\users\aluno\desktop\lista 4\filme\include\filme.h
+	<string>
+	<locale.h>
+	<cstdlib>
+	<iostream>
+
