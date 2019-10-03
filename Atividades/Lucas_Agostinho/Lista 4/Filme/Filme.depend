@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1570052825 source:c:\users\aluno\downloads\filme\main.cpp
+	<iostream>
+	<locale.h>
+	<cstdlib>
+	"Cadastro.h"
+
+1570052965 c:\users\aluno\downloads\filme\include\cadastro.h
+	<string>
+
+1570052898 source:c:\users\aluno\downloads\filme\src\cadastro.cpp
+	"Cadastro.h"
+	<string>
+

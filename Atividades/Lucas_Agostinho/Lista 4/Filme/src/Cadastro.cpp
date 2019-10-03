@@ -1,4 +1,7 @@
 #include "Cadastro.h"
+#include <string>
+
+using namespace std;
 
 Cadastro::Cadastro()
 {
@@ -13,33 +16,33 @@ Cadastro::~Cadastro()
 }
 
 //setters
-void setID(int id)
+void Cadastro::setID(int id)
 {
     ID = id;
 }
 
-void setNome(string n)
+void Cadastro::setNome(string n)
 {
     Nome = n;
 }
 
-void setAnoLancamento(int al)
+void Cadastro::setAnoLancamento(int al)
 {
     AnoLancamento = al;
 }
 
 //getters
-int setID()
+int Cadastro::getID()
 {
     return ID;
 }
 
-string setNome()
+string Cadastro::getNome()
 {
     return Nome;
 }
 
-int setAnoLancamento()
+int Cadastro::getAnoLancamento()
 {
     return AnoLancamento;
 }

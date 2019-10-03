@@ -12,14 +12,14 @@ class Cadastro
         ~Cadastro();
 
         //setters
-        void setID();
-        void setNome();
-        void setAnoLancamento();
+        void setID(int);
+        void setNome(string);
+        void setAnoLancamento(int);
 
         //getters
-        int setID();
-        string setNome();
-        int setAnoLancamento();
+        int getID();
+        string getNome();
+        int getAnoLancamento();
 
     private:
         int ID;
