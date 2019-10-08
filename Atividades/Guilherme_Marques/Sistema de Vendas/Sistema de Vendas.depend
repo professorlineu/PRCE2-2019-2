@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1570049474 source:c:\users\lineu\documents\apr-em2\sistema de vendas\src\fisica.cpp
+	"Fisica.h"
+
+1570049821 c:\users\lineu\documents\apr-em2\sistema de vendas\include\fisica.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1570049612 source:c:\users\lineu\documents\apr-em2\sistema de vendas\src\juridica.cpp
+	"Juridica.h"
+
+1570049863 c:\users\lineu\documents\apr-em2\sistema de vendas\include\juridica.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1570050122 source:c:\users\lineu\documents\apr-em2\sistema de vendas\main.cpp
+	<iostream>
+	<string>
+	"Fisica.h"
+	"Juridica.h"
+
+1570049284 c:\users\lineu\documents\apr-em2\sistema de vendas\include\pessoa.h
+	<iostream>
+	<string>
+
+1570049246 source:c:\users\lineu\documents\apr-em2\sistema de vendas\src\pessoa.cpp
+	"Pessoa.h"
+
