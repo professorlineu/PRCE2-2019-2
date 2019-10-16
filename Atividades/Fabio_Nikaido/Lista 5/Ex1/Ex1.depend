@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1571195589 source:c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\main.cpp
+	<iostream>
+	<string>
+	"Aluno.h"
+	"Funcionario.h"
+
+1571194727 source:c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\src\aluno.cpp
+	"Aluno.h"
+	<iostream>
+	<string>
+
+1571195091 c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\include\aluno.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1571194811 source:c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\src\funcionario.cpp
+	"Funcionario.h"
+	<iostream>
+	<string>
+
+1571195091 c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\include\funcionario.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1571195352 source:c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\src\pessoa.cpp
+	"Pessoa.h"
+
+1571193662 c:\users\fabio\desktop\programação\2° semestre\lista 4\ex1\include\pessoa.h
+	<iostream>
+	<string>
+
