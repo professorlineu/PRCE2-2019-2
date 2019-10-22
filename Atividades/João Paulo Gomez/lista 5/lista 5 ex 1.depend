@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1571712595 source:c:\users\aluno\downloads\lista 5 ex 1\src\aluno.cpp
+	<iostream>
+	<string>
+	"Aluno.h"
+
+1571712771 c:\users\aluno\downloads\lista 5 ex 1\include\aluno.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1571712764 c:\users\aluno\downloads\lista 5 ex 1\include\pessoa.h
+	<iostream>
+	<string>
+
+1571712426 source:c:\users\aluno\downloads\lista 5 ex 1\src\funcionario.cpp
+	<iostream>
+	<string>
+	"Funcionario.h"
+
+1571712369 c:\users\aluno\downloads\lista 5 ex 1\include\funcionario.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1571714178 source:c:\users\aluno\downloads\lista 5 ex 1\main.cpp
+	<iostream>
+	<string>
+	"Pessoa.h"
+	"Aluno.h"
+	"Funcionario.h"
+
+1571712813 source:c:\users\aluno\downloads\lista 5 ex 1\src\pessoa.cpp
+	<iostream>
+	<string>
+	"Pessoa.h"
+
