@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1572360336 source:e:\escolai\main.cpp
+	<iostream>
+	"Pessoa.h"
+	<string.h>
+	<locale.h>
+	<cstdlib>
+
+1572360336 e:\escolai\include\pessoa.h
+	<string>
+	<iostream>
+	<locale.h>
+	<cstdlib>
+
+1572360366 source:e:\escolai\src\pessoa.cpp
+	"Pessoa.h"
+	<string>
+	<iostream>
+	<locale.h>
+	<cstdlib>
+
