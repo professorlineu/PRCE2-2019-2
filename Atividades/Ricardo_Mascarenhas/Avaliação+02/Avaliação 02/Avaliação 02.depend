@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1573086178 source:c:\users\aluno\desktop\avaliação 02\src\cadastro.cpp
+	"CADASTRO.h"
+	<string>
+
+1573086178 c:\users\aluno\desktop\avaliação 02\include\cadastro.h
+	<string>
+
+1573087319 source:c:\users\aluno\desktop\avaliação 02\main.cpp
+	<iostream>
+	"cadastro.h"
+	<locale.h>
+	<cstdlib>
+	<string>
+
+1573086178 source:c:\users\aluno\downloads\avaliação+02\avaliação 02\src\cadastro.cpp
+	"CADASTRO.h"
+	<string>
+
+1573086178 c:\users\aluno\downloads\avaliação+02\avaliação 02\include\cadastro.h
+	<string>
+
+1573524767 source:c:\users\aluno\downloads\avaliação+02\avaliação 02\main.cpp
+	<iostream>
+	"cadastro.h"
+	<locale.h>
+	<cstdlib>
+	<string>
+
+1573082578 source:c:\users\ricardo\desktop\avaliação+02\avaliação 02\src\cadastro.cpp
+	"CADASTRO.h"
+	<string>
+
+1573082578 c:\users\ricardo\desktop\avaliação+02\avaliação 02\include\cadastro.h
+	<string>
+
+1574853529 source:c:\users\ricardo\desktop\avaliação+02\avaliação 02\main.cpp
+	<iostream>
+	"cadastro.h"
+	<locale.h>
+	<cstdlib>
+	<string>
+
