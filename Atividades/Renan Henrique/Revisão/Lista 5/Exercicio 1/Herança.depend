@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\renan\onedrive\Área de trabalho\prova programação\herança\main.cpp
+	<iostream>
+
+1575409663 source:c:\users\renan\onedrive\Área de trabalho\prova programação\herança\src\aluno.cpp
+	"Aluno.h"
+
+1573089639 c:\users\renan\onedrive\Área de trabalho\prova programação\herança\include\aluno.h
+	<Pessoa.h>
+	<iostream>
+	<string>
+
+1573089699 c:\users\renan\onedrive\Área de trabalho\prova programação\herança\include\pessoa.h
+	<iostream>
+	<string>
+
+1575409663 source:c:\users\renan\onedrive\Área de trabalho\prova programação\herança\src\pessoa.cpp
+	"Pessoa.h"
+
+1575409663 source:c:\users\renan\onedrive\Área de trabalho\prova programação\herança\src\funcionario.cpp
+	"Funcionario.h"
+
+1575409344 c:\users\renan\onedrive\Área de trabalho\prova programação\herança\include\funcionario.h
+	<string>
+	<Pessoa.h>
+	<iostream>
+
