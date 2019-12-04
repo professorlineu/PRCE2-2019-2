@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1575296778 source:c:\users\acer\documents\lista5\main.cpp
+	<iostream>
+	<string>
+	"Aluno.h"
+	"Funcionario.h"
+
+1575296779 c:\users\acer\documents\lista5\include\aluno.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1575296835 c:\users\acer\documents\lista5\include\pessoa.h
+	<iostream>
+	<string>
+
+1575296778 c:\users\acer\documents\lista5\include\funcionario.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1575296779 source:c:\users\acer\documents\lista5\src\aluno.cpp
+	"Aluno.h"
+	<iostream>
+	<string>
+
+1575296779 source:c:\users\acer\documents\lista5\src\funcionario.cpp
+	"Funcionario.h"
+	<iostream>
+	<string>
+
