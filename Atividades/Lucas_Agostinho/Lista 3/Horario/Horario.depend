@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1569383787 source:c:\users\lucas\downloads\faculdade\programação 2\lista 3\horario\main.cpp
+	<iostream>
+	<locale.h>
+	<cstdlib>
+	<iomanip>
+	"Horario.h"
+
+1569383809 source:c:\users\lucas\downloads\faculdade\programação 2\lista 3\horario\src\horario.cpp
+	<iostream>
+	<iomanip>
+	"Horario.h"
+
+1569381668 c:\users\lucas\downloads\faculdade\programação 2\lista 3\horario\include\horario.h
+
