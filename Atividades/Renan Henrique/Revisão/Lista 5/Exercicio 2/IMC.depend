@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1575427036 source:c:\users\renan\onedrive\Área de trabalho\prova programação\imc\main.cpp
+	<iostream>
+	<string>
+	"Homem.h"
+	"Mulher.h"
+
+1575427711 source:c:\users\renan\onedrive\Área de trabalho\prova programação\imc\src\pessoa.cpp
+	"Pessoa.h"
+
+1575412884 c:\users\renan\onedrive\Área de trabalho\prova programação\imc\include\pessoa.h
+	<string>
+	<iostream>
+
+1575413333 source:c:\users\renan\onedrive\Área de trabalho\prova programação\imc\src\homem.cpp
+	"Homem.h"
+
+1575412884 c:\users\renan\onedrive\Área de trabalho\prova programação\imc\include\homem.h
+	<Pessoa.h>
+	<string>
+	<iostream>
+
+1575427711 source:c:\users\renan\onedrive\Área de trabalho\prova programação\imc\src\mulher.cpp
+	"Mulher.h"
+
+1575412884 c:\users\renan\onedrive\Área de trabalho\prova programação\imc\include\mulher.h
+	<Pessoa.h>
+	<string>
+	<iostream>
+
