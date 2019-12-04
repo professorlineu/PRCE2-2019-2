@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1575289535 source:c:\users\acer\documents\lista3\main.cpp
+	<ctype.h>
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+	"Horario.h"
+	<iomanip>
+
+1575289077 c:\users\acer\documents\lista3\include\horario.h
+
+1575289553 source:c:\users\acer\documents\lista3\src\horario.cpp
+	<iostream>
+	<string>
+	<locale.h>
+	<cstdlib>
+	<iomanip>
+	"Horario.h"
+
